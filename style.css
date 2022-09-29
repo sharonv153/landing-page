@@ -1,6 +1,91 @@
-.main-container {
+body {
+    background-color: #1F2937;
+    padding: 0px;
+}
+.container {
     max-width: 1281px;
+    margin: auto;
+    padding: 0;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8; 
+}
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+}
+.top-container p {
+    color: #F9FAF8;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
-    
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.navbar ul {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+}
+.navbar li {
+    padding-right: 20px;
+}
+.top-container .container {
+    display: flex;
+    padding: 50px 0px;
+}
+.container img {
+    max-width: 50%;
+    padding-right: 10px;
+}
+.text {
+    padding: 0px 30px 0px 10px;
+}
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.middle-container {
+    width: 100%;
+    background-color: #F9FAF8;
+    padding: 50px 10px;
+    text-align: center;
+}
+.perks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.perk-box {
+    width: 22%;
+}
+.perk-box img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.middle-container p {
+    font-size: 18px;
+}
+.testimonial-container {
+    background-color: #E5E7EB;
+    width: 100%;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
