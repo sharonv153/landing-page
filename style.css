@@ -7,6 +7,9 @@ body {
     margin: auto;
     padding: 0;
 }
+h1, h2, h3, p, li, .logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 h1 {
     font-size: 48px;
     font-weight: 600;
@@ -16,6 +19,12 @@ h2 {
     font-size: 36px;
     font-weight: 600;
     color: #1F2937;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 0px;
+    line-height: 0px;
 }
 .top-container p {
     color: #F9FAF8;
@@ -61,7 +70,7 @@ button {
 .middle-container {
     width: 100%;
     background-color: #F9FAF8;
-    padding: 50px 10px;
+    padding: 50px 0px;
     text-align: center;
 }
 .perks {
@@ -83,9 +92,57 @@ button {
 .testimonial-container {
     background-color: #E5E7EB;
     width: 100%;
+    margin: auto;
+    padding: 50px 0px;
 }
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 200;
+}
+.testimonial-container .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.quote-name {
+    font-size: 20px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+.bottom-container {
+    width: 100%;
+    padding: 80px 0px;
+    margin: auto;
+    background-color: #fff;
+}
+.bottom-container .container {
+    background-color: #3882F6;
+    border-radius: 20px;
+    color: #fff;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-container button {
+    border: 1px solid #fff;
+    width: 180px;
+    margin-right: 60px;
+}
+.bottom-container .cta {
+    margin: 0px 60px;
+    line-height: 20px;
+}
+.footer-container {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    font-weight: 200px;
+    word-spacing: 3px;
+}
+.footer-container .container {
+    padding: 30px 10px;
 }
