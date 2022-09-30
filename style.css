@@ -51,7 +51,7 @@ h3 {
     display: flex;
     padding: 50px 0px;
 }
-.container img {
+.top-container img {
     max-width: 50%;
     padding-right: 10px;
 }
@@ -145,4 +145,52 @@ button {
 }
 .footer-container .container {
     padding: 30px 10px;
+}
+
+@media (max-width:480px) {
+    .top-container .container {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .top-container img {
+        padding: 10px 0px 20px 0px;
+        max-width: 80%;
+    }
+    .middle-container .container {
+        padding: 30px 20px;
+    }
+    .perks {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    .perk-box {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .perk-box img {
+        padding-bottom: 0px;
+    }
+    .testimonial-container .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .bottom-container .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        margin: 0px 15px;
+    }
+    .bottom-container h3 {
+        line-height: 30px;
+    }
+    .bottom-container button {
+        margin-top: 20px;
+    }
 }
